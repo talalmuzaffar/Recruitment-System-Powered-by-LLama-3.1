@@ -1,5 +1,5 @@
 
-# 📊 Candidate Analysis and Management System
+# 📊 Recruitment System Powered by Llama-3.1
 
 A powerful Streamlit app designed to streamline candidate management and analysis using advanced AI tools. Users can upload resumes and interview transcripts, save job descriptions, and chat with an AI assistant to analyze candidate profiles based on semantic search capabilities.
 
