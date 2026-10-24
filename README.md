@@ -55,6 +55,23 @@ QDRANT_API_KEY = "your_qdrant_api_key"
 GROQ_API_KEY = "your_groq_api_key"
 ```
 
+## Project Structure
+
+```
+Recruitment-System-Powered-by-LLama-3.1/
+├── app.py                # Streamlit entry point and page navigation
+├── recruitment/
+│   ├── __init__.py
+│   ├── candidates.py     # Saving, listing and deleting candidate data
+│   ├── config.py         # Streamlit secrets, companies and job titles
+│   ├── documents.py      # PDF text extraction
+│   ├── qa.py             # Groq LLM, job descriptions and the self-query QA chain
+│   ├── ui.py             # Save Candidate Data, Save Job Description and Chat pages
+│   └── vector_store.py   # Qdrant client, collections and embedding model
+├── requirements.txt
+└── README.md
+```
+
 ## 🛠️ Example Usage
 
 1. **Save Candidate Data**:
